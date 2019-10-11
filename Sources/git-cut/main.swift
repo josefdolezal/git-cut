@@ -43,7 +43,6 @@ for branch in branches {
             try git("branch", arguments: ["-D", branch])
             break
         } else if command == "n" || command == "" {
-            print("skipping")
             break
         }
     }
